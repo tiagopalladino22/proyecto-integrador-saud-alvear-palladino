@@ -1,8 +1,9 @@
+const productos = require("../data/productos")
 module.exports = {
 
     principal: (req, res) => {
         
-        return res.render("index")
+        return res.render("index",productos )
 
     },
 
