@@ -1,13 +1,15 @@
+const productos = require("../data/productos")
+
 module.exports = {
 
     producto: (req, res) => {
-        
-        res.render("producto")
+        let idProduct = req.params.id
+        let miId = productos.porId(idProduct)
+        console.log(miId)
+        if (miId.length > 0){
+            res.render("producto", {miId})
+        }
 
     },
-    add: (req, res) =>{
 
-        res.render("addProduct")
-
-    } 
 }

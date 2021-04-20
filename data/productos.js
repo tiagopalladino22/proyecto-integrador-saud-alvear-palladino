@@ -39,7 +39,7 @@ const productos = {
         },
         {
             id: "6",
-            nombre: "Beta Racing",
+            nombre: "Beta Racing 250X",
             precio: "247.450",
             descripcion: "Moto de carreras para que puedas competir a otra velocidad",
             imagen: "https://www.betamotor.com/wp-content/uploads/2019/05/RR4T_350_my21_01-1030x623.jpg"      

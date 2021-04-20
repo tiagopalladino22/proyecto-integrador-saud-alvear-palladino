@@ -1,4 +1,5 @@
 const productos = require("../data/productos")
+
 module.exports = {
 
     principal: (req, res) => {
@@ -27,6 +28,12 @@ module.exports = {
         return res.render("perfilEditar")
 
     },
+    add: (req, res) =>{
+
+        res.render("addProduct")
+
+    } 
+
     
     
 }
