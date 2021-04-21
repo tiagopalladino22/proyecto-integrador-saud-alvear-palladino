@@ -496,7 +496,9 @@ textarea.form-input {
 }
 
 .foto-perfil{
+  height: 95%;
   border-radius: 50%;
+  width: 80%;
 }
 
 .main-title{
