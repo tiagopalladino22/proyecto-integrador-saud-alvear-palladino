@@ -425,6 +425,10 @@ hr {
 .comments {
   padding: 30px 15px 15px 0;
 }
+.comentario{
+  color: blue;
+    font-family: 'Font Awesome 5 Free';
+}
 .comments article{
   margin-bottom: 7.5px;
   padding-bottom: 7.5px;
