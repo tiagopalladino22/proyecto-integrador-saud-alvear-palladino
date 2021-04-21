@@ -17,6 +17,7 @@
 /*====== Basics ======*/
 * {
   box-sizing: border-box;
+  color: black;
 }
 
 html,
@@ -210,6 +211,7 @@ hr {
   font-size: 2.4em;
   font-weight: 300;
   margin: 0;
+  color: black;
 }
 
 .product-box_data span {
@@ -336,6 +338,7 @@ hr {
   padding: 15px 15px 15px 40px;
   font-size: 1.8em;
   line-height: 1.5;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .product-detail-price {
@@ -387,6 +390,7 @@ hr {
   border-radius: 8px;
   border: none;
   margin-bottom: 15px;
+  font-family: 'Font Awesome 5 Free';
 }
 
 .action-button {
@@ -432,6 +436,7 @@ hr {
 }
 .comments .user{
   font-size: 1.7em;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 /*====== Formularios ======*/
@@ -451,6 +456,7 @@ hr {
   border: none;
   border: solid 1px var(--gray);
   padding: 0 15px;
+  font-family: 'Font Awesome 5 Free';
 }
 
 .error{
