@@ -44,6 +44,20 @@ const productos = {
             descripcion: "Moto de carreras para que puedas competir a otra velocidad",
             imagen: "https://www.betamotor.com/wp-content/uploads/2019/05/RR4T_350_my21_01-1030x623.jpg"      
         },
+        {
+            id: "7",
+            nombre: "Yamaha Raptor 700",
+            precio: "787.950",
+            descripcion: "Cuatriciclo diseñado para disfrutar de los medanos",
+            imagen: "https://pictures.topspeed.com/IMG/crop_webp/200707/2008-yamaha-raptor-700r-11_800x0.webp"      
+        },
+        {
+            id: "8",
+            nombre: "Yamaha YZF R1 M",
+            precio: "937.945",
+            descripcion: "La mejor moto para disfrutar de la velocidad en la calle",
+            imagen: "https://www.motofichas.com/images/phocagallery/Yamaha_Motor_Corporation/yzf-r1-m-2020/01-yamaha-yzf-r1-2020-perfil-azul.jpg"      
+        },
 
       ],
       porId: function (id) {
