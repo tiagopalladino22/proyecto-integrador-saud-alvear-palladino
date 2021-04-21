@@ -20,7 +20,7 @@ module.exports = {
     
     perfil: (req, res) => {
 
-        return res.render("perfil")
+        return res.render("perfil", productos)
     },
 
     editar: (req, res) => {
