@@ -203,6 +203,7 @@ hr {
 }
 
 .product-box_data h2 {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 2.4em;
   font-weight: 300;
   margin: 0;
@@ -279,12 +280,14 @@ hr {
 }
 
 .footer-data h2 {
+  font-family: Arial, Helvetica, sans-serif;
   color: var(--gray);
   font-size: 2.4em;
   font-weight: 400;
 }
 
 .footer-data p {
+  font-family: 'Times New Roman', Times, serif;
   color: var(--gray);
   font-size: 1.5em;
   font-weight: 300;
