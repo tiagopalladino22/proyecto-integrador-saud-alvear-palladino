@@ -17,7 +17,7 @@
 /*====== Basics ======*/
 * {
   box-sizing: border-box;
-  color: black;
+  color:white;
 }
 
 html,
@@ -66,8 +66,13 @@ hr {
   border: none;
   border-bottom: solid 1px var(--light-gray);
 }
-
-
+.form-control{
+  color: black;
+  margin-left: 70px;
+}
+#correo{
+  font-size: 20px;
+}
 /*====== Main Header ======*/
 .main-header {
   padding: 15px 0;
@@ -102,6 +107,7 @@ hr {
   border-radius: 3px;
   height: 40px;
   font-size: 1.5em;
+  color: black;
 }
 
 .search-form_button {
@@ -182,6 +188,10 @@ hr {
 
 }
 
+.precios{
+  box-sizing: border-box;
+  color: black;
+}
 .product-box {
   background-color: #ffffff;
   border-radius: 5px;
@@ -339,6 +349,7 @@ hr {
   font-size: 1.8em;
   line-height: 1.5;
   font-family: 'Times New Roman', Times, serif;
+  color: black;
 }
 
 .product-detail-price {
@@ -437,6 +448,7 @@ hr {
 .comments .user{
   font-size: 1.7em;
   font-family: 'Times New Roman', Times, serif;
+  color: black;
 }
 
 /*====== Formularios ======*/
@@ -444,6 +456,7 @@ hr {
   display: inline-block;
   font-size: 1.6em;
   margin: 10px 0;
+  font-family: 'Font Awesome 5 Free';
 }
 
 .form-input {
@@ -457,6 +470,7 @@ hr {
   border: solid 1px var(--gray);
   padding: 0 15px;
   font-family: 'Font Awesome 5 Free';
+  color: black;
 }
 
 .error{
