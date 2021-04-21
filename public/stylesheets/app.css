@@ -487,7 +487,10 @@ textarea.form-input {
     margin-top: 0;
     text-align: right;
   }
-
+.fondo{
+  height: 100%;
+width: 100%;
+}
   .banner {
     height: 320px;
   }
