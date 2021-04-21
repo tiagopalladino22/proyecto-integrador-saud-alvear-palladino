@@ -68,14 +68,17 @@ hr {
 /*====== Main Header ======*/
 .main-header {
   padding: 15px 0;
-  background-color: var(--yellow);
+  background-color: #e63c2d;
 }
 
 .main-header_home-link,
 .main-header_credit-link {
   display: block;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
+.cuentax{
+  font-family: Arial, Helvetica, sans-serif;
+}
 .main-header_credit-link {
   font-size: 1.5em;
   margin-top: 20px;
@@ -169,7 +172,7 @@ hr {
 }
 
 .products-title {
-  font-family: cursive;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 2.4em;
   font-weight: 400;
   color: var(--gray);
@@ -514,6 +517,7 @@ textarea.form-input {
 
   .left-navbar li {
     margin-right: 15px;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   .right-navbar li {
