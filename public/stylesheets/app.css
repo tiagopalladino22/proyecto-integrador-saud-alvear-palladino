@@ -29,7 +29,7 @@ body {
 body {
   font-family: var(--base-font-family);
   font-weight: 300;
-  background-color: var(--light-gray);
+  background-color: black
 }
 
 ul,
@@ -42,7 +42,9 @@ ol {
 a {
   display: inline-block;
   text-decoration: none;
-  color: inherit;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
 }
 
 figure {
@@ -174,8 +176,9 @@ hr {
 .products-title {
   font-family: 'Courier New', Courier, monospace;
   font-size: 2.4em;
-  font-weight: 400;
-  color: var(--gray);
+  font-weight: bold;
+  color: white;
+
 }
 
 .product-box {
