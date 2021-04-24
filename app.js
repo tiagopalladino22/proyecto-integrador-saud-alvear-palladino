@@ -1,5 +1,5 @@
 var createError = require('http-errors');
-var express = require('express');
+var express = require('express'); //servidpr mas rapido
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
@@ -7,11 +7,11 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var productRouter = require("./routes/product")
-var app = express();
+var app = express();            //variable app con info de express
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'ejs');
+app.set('view engine', 'ejs');                      //setear las vistas en la carpeta views y usamos el motor de templeate ejs
 
 app.use(logger('dev'));
 app.use(express.json());

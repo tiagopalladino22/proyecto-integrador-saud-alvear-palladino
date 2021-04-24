@@ -1,6 +1,8 @@
 const productos = require("../data/productos")
 
 module.exports = {
+   
+    principal : (req,res) => { res.send('producto')},
 
     producto: (req, res) => {
         let idProduct = req.params.id

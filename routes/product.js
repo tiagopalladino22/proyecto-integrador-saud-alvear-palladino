@@ -3,6 +3,7 @@ var router = express.Router();
 const productController = require("../controllers/productController")
 
 /* GET home page. */
+router.get("/", productController.principal)
 router.get('/:id', productController.producto) 
 
 
